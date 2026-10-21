@@ -1,0 +1,7 @@
+.venv
+__pychache__
+DS_Store
+.python-version
+uv.lock
+pyproject.toml
+*.pyc

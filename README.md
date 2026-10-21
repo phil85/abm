@@ -14,3 +14,10 @@ The detailed experimental results for the L1 (cityblock), L2 (Euclidean), and L2
 
 - [Full results on medium-sized instances](./Full%20results%20on%20medium-sized%20instances.pdf)
 
+### Large-sized datasets
+
+- [Full results on large-sized instances](./Full%20results%20on%20large-sized%20instances.pdf)
+
+### Ablation study
+
+- [Full results on ablation study](./Full%20results%20on%20ablation%20study.pdf)
