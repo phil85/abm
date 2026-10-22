@@ -1,7 +1,7 @@
 <p align="center"><img src="cover.gif", width="100%"></p>
 
 <p align="center">
-  <a href="<PAPER_URL>"><img src="https://img.shields.io/badge/Paper-Submitted-b31b1b.svg" alt="Paper"></a>
+  <a href="<PAPER_URL>"><img src="https://img.shields.io/badge/Paper-In preparation-b31b1b.svg" alt="Paper"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
   <img src="https://img.shields.io/badge/Language-Python-3776ab.svg" alt="<LANGUAGE> version">
 </p>
