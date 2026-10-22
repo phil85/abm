@@ -1,7 +1,9 @@
 .venv
 __pychache__
-DS_Store
+.DS_Store
 .python-version
 uv.lock
 pyproject.toml
+cover.py
+cover.png
 *.pyc
