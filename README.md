@@ -84,7 +84,7 @@ The control parameters are specified in a dictionary that is passed to `run_abm`
 | `assignment_problem_size_for_improvement` | `1000` | Size of the assignment problems solved in the improvement phase: a positive integer, or `-1` to use all objects. Only used if `use_improvement` is `True`. |
 | `n_jobs_improvement` | `None` | Number of parallel jobs for the improvement phase: `None`, a positive integer (maximum number of concurrently running jobs), or `-1` (use all available CPUs). Only used if `use_improvement` is `True`. |
 | `n_improvement_iterations` | `10` | Number of improvement iterations: `None` or a positive integer. Only used if `use_improvement` is `True`. |
-| `metric` | `'cityblock'` | Distance function used to determine the edge weights, e.g. `'euclidean'`, `'sqeuclidean'` or `'cityblock'`. |
+| `metric` | `'sqeuclidean'` | Distance function used to determine the edge weights, e.g. `'euclidean'`, `'sqeuclidean'` or `'cityblock'`. |
 | `random_seed` | `24` | Seed for the random number generator, for reproducible results: `None` or a positive integer. |
 
 ## Experimental results
