@@ -7,3 +7,4 @@ pyproject.toml
 cover.py
 cover.png
 *.pyc
+make_cover.py
