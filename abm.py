@@ -147,6 +147,10 @@ def improve_matching(X, n_objects, n_pairs, labels, params):
         # Get object ids in each pair
         object_ids_in_pairs = object_ids[np.argsort(labels)].reshape(-1, 2)
 
+        # Randomly permute the order of the pairs so that batches are composed differently in each iteration
+        if assignment_problem_size < n_pairs: 
+            object_ids_in_pairs = object_ids_in_pairs[rng.permutation(n_pairs)]
+
         # Randomly select one object from each pair and assign it to set A and the other to set B
         mask = rng.integers(0, 2, size=n_pairs, dtype=np.uint8).astype(bool)
         list_A = np.where(mask, object_ids_in_pairs[:, 0], object_ids_in_pairs[:, 1])
